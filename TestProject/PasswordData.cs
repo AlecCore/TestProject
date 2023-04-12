@@ -8,9 +8,9 @@ namespace TestProject
 {
     public class PasswordData
     {
-        string SearchChar { get; set; }
-        string Password { get; set; }
-        int MinLenght { get; set; }
-        int MaxLenght { get; set; }
+        public char SearchChar { get; set; }
+        public string Password { get; set; }
+        public int MinLenght { get; set; }
+        public int MaxLenght { get; set; }
     }
 }
